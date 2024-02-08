@@ -13,7 +13,7 @@ public class GuessingGame {
         guess = scnr.nextInt();
 
         int count = 1;
-        while(guess != secret) {
+        while(count < maxTrials) {
             count++;
             System.out.println("Count: " + count);
             System.out.println("Enter a number between 0 and 10");
@@ -26,7 +26,7 @@ public class GuessingGame {
             }
 
             if (count == maxTrials) {
-                System.out.println("You've run out of tries.");
+                System.out.println("You lose!");
                 break;
             }
         }
