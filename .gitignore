@@ -1,2 +1,6 @@
-notes.txt
-notes
+#Files to ignore
+Case.class
+ForLoop.class
+KidsPerFamily.class
+Main.class
+.breakpoints
