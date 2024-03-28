@@ -5,7 +5,6 @@ import java.io.File;
 public class BookInformation {
    public static void main(String[] args) {
       Scanner scnr = new Scanner(System.in);
-      File bookFile = new File("Books.txt");
 
       Book myBook = new Book();
       Encyclopedia myEncyclopedia = new Encyclopedia();
