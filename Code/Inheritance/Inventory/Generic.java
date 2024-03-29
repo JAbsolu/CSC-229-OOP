@@ -1,24 +1,16 @@
 public class Generic {
-    String name;
-    String price;
-
-    public String getName() {
-        return name;
+    private String itemName;
+    private int itemQuantity;
+ 
+    public void setName(String newName) {
+       itemName = newName;
     }
-
-    public String getPrice() {
-        return price;
+ 
+    public void setQuantity(int newQty) {
+       itemQuantity = newQty;
     }
-
-    public void setName(String name) {
-        this.name = name;
+ 
+    public void printItem() {
+       System.out.println("Product Name: " + itemName + ", Inventory: " + itemQuantity);
     }
-
-    public void setPrice(int price) {
-        this.price = price;
-    }
-    
-    public static void main(String[] args) {
-        System.out.println();
-    }
-}
+ }
